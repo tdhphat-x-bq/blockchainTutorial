@@ -1,0 +1,65 @@
+:root{
+    --my-color: orange;
+    --my-font: italic;
+    --my-width: 600px;
+    --my-heigth: 300px;    
+}
+html{
+    font-size: 90%;
+}
+.deco{
+    width: 80%;
+    height: 100px;
+}
+.box{
+    width: 100%;
+    /* height: 40%; */
+    background-color: black;
+    font-size: 3vw;
+    /* line-height: 30px; */
+}
+.box .son-box{
+    width: 50%;
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+.intro{
+    background-color: orange;
+    width: 35%;
+    height: 25%;
+    /* font-size: 2vw; */
+}
+.intro a{
+    color: red;
+}
+.main-box{
+    width: 70%;
+    margin: auto;
+
+}
+h2{
+    font-size: 1.8rem;
+}
+h3{
+    font-size: 1.4rem;
+}
+img{
+    width: var(--my-width);
+    height: var(--my-heigth);
+}
+a{
+    color: var(--my-color);
+    font-style: var(--my-font);
+}
+
+.list  li{
+    color: red;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+p, strong{
+    color: black;
+    font-weight: 100;
+    font-size: 1.4rem;
+}
