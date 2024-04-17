@@ -7,10 +7,6 @@
 html{
     font-size: 90%;
 }
-.deco{
-    width: 80%;
-    height: 100px;
-}
 .box{
     width: 100%;
     /* height: 40%; */
@@ -25,18 +21,18 @@ html{
     margin: auto;
 }
 .intro{
-    background-color: orange;
+    background-color: var(--my-color);
     width: 35%;
-    height: 25%;
+    height: 100%;
     /* font-size: 2vw; */
 }
+
 .intro a{
-    color: red;
+    color: black;
 }
 .main-box{
     width: 70%;
     margin: auto;
-
 }
 h2{
     font-size: 1.8rem;
@@ -52,7 +48,6 @@ a{
     color: var(--my-color);
     font-style: var(--my-font);
 }
-
 .list  li{
     color: red;
     font-weight: 600;
@@ -62,4 +57,24 @@ p, strong{
     color: black;
     font-weight: 100;
     font-size: 1.4rem;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: red;
+}
+.intro a:hover{
+    font-size: 15px;
+}
+a:visited{
+    color: red;
+}
+.intro div:first-child{
+    width: 21%;
+    margin: auto;
+}
+.intro div:last-child{
+    width: 37%;
+    margin: auto;
 }
