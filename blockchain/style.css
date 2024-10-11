@@ -1,0 +1,158 @@
+:root{
+    --my-color: orange;
+    --my-font: italic;
+    --my-width: 600px;
+    --my-heigth: 300px;    
+}
+*{
+    text-decoration: none;
+}
+html{
+    font-size: 90%;
+}
+.except-a{
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+    padding: 8px 16px;
+    border-radius: 10px;
+    margin-right: 4px;
+    display: inline-block;
+}
+.st {
+    display: flex;
+    margin-left: 80%;
+    padding-left: 1%;
+}
+.child-a {
+    margin-left: 130px;
+    float: right;
+    padding-bottom: 3px;
+    width: 200px;
+}
+.child-a img{
+    border-radius: 100%;
+    width: 25%;
+    height: auto;
+    display: inline-block;
+    margin-top: 10px;
+}
+.box{
+    width: 100%;
+    color: white;
+    background-color: black;
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 0.6%;
+}
+.container {
+    display: flex;
+}
+.pic-bl img{
+    margin-left: 5%;
+    width: 900px;
+    height: auto;
+}
+.intro ol{
+    position: relative;
+    left: 5px;
+}
+.intro{
+    background-color: var(--my-color);
+    width: 500px;
+    font-size: 1vw;
+    font-style: italic;
+    border-radius: 10px;
+}
+.intro a{
+    color: black;
+}
+.main-box{
+    width: 70%;
+    margin: auto;
+}
+.interview {
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+    padding: 8px 16px;
+    border-radius: 10px;
+    margin-left: 50%;
+    display: inline-block;
+}
+.button-link:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+}
+h2{
+    font-size: 1.8rem;
+}
+h3{
+    font-size: 1.4rem;
+}
+img{
+    width: var(--my-width);
+    height: var(--my-heigth);
+}
+a:not(.intro a):not(.except-a):link{
+    color: var(--my-color);
+    font-style: var(--my-font);
+}
+.list  li{
+    color: red;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+p, strong{
+    color: black;
+    font-weight: 100;
+    font-size: 1.4rem;
+}
+a:not(.except-a):not(.interview):hover{
+    color: blue;
+}
+.except-a:hover {
+    background-color: red;
+    transform: scale(1.2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Thêm bóng */
+}
+.interview:hover {
+    background-color: red;
+    transform: scale(1.2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Thêm bóng */
+}
+.intro a:hover{
+    font-size: 1.3vw;
+}
+a:not(.except-a):not(.interview):visited{
+    color: red;
+}
+/* .intro div:first-child{
+    width: 21%;
+    margin: auto;
+} */
+/* .intro div:last-child{
+    width: 37%;
+    margin: auto;
+} */
+::selection{
+    background-color: 	#E6E6FA;
+    color: black;
+}
+.intro::before{
+    content: "MENU:";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+}
+.intro::after{
+    content: "----------END----------";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 7px;
+}
